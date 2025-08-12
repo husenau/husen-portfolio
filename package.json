@@ -1,0 +1,24 @@
+{
+  "homepage": "https://github.com/husenau/husen-portfolio.git",
+  "name": "hussain-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^0.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+  }
+}
